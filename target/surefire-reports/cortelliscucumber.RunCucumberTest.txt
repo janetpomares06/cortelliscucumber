@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: cortelliscucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 55.363 s <<< FAILURE! - in cortelliscucumber.RunCucumberTest
+Finding Clarivate.Go to Clarivate website from Google  Time elapsed: 52.903 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <https://access.clarivate.com/login?app=cmc> but was: <https://access.cortellis.com/login?app=cmc>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at cortelliscucumber.FindingClarivateTests.i_am_redirected_to_clarivate_website(FindingClarivateTests.java:58)
+	at ✽.I am redirected to Clarivate website(classpath:cortelliscucumber/finding_clarivate.feature:7)
+

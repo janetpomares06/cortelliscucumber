@@ -1,0 +1,8 @@
+page/GooglePage.class
+page/CustomerLoginsPage.class
+page/CortellisHomePage.class
+page/GenericsManufacturingPage.class
+page/ClarivateHomePage.class
+page/CortellisLoginPage.class
+page/GoogleSearchPage.class
+utill/WebDriverUtils.class
