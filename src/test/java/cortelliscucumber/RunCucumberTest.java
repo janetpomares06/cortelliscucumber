@@ -12,6 +12,6 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 @IncludeEngines("cucumber")
 @SelectClasspathResource("cortelliscucumber")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
-@CucumberOptions(tags = {"@Step1, @Step2, @Step3, @Step4"})
+//@CucumberOptions(tags = {"@Step1, @Step2, @Step3, @Step4"})
 public class RunCucumberTest {
 }

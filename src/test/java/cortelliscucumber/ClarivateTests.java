@@ -11,8 +11,8 @@ import page.ClarivateHomePage.*;
 @Slf4j
 public class ClarivateTests {
 
-    ChromeDriver driver = new ChromeDriver();
-    private ClarivateHomePage clarivateHomePage = new ClarivateHomePage(driver);
+    //ChromeDriver driver = new ChromeDriver();
+    //private ClarivateHomePage clarivateHomePage = new ClarivateHomePage(driver);
 
     @Given("Accepting all cookies in Clarivate home page")
     public void accepting_all_cookies_in_clarivate_home_page() {
