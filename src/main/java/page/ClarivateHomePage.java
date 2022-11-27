@@ -37,7 +37,9 @@ public class ClarivateHomePage {
     }
 
     public void goGenericAndManufacturing(){
-        driver.findElement(By.id("menu-item-7")).click();
+        new WebDriverWait(driver, Duration.ofSeconds(3)).until(ExpectedConditions.elementToBeClickable(By.id("menu-item-7"))).click();
+
+        //driver.findElement(By.id("menu-item-7")).click();
         driver.findElement(By.linkText("Generics & Manufacturing")).click();
     }
 }
