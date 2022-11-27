@@ -3,13 +3,13 @@ package page;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CortellisLoginPage {
-    public ChromeDriver driver;
+    private ChromeDriver driver;
 
     public CortellisLoginPage(ChromeDriver driver) {
         this.driver = driver;
     }
 
-    public String getUrl(){
+    public String getUrl() {
         return driver.getCurrentUrl();
     }
 
