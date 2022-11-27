@@ -1,15 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: cortelliscucumber.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.089 s <<< FAILURE! - in cortelliscucumber.RunCucumberTest
-Cortellis login url is correct.Check Cortellis login page URL is the one provided https://access.cortellis.com/login?app=cmc  Time elapsed: 20.974 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <https://access.clarivate.com/login?app=cmc> but was: <https://access.cortellis.com/login?app=cmc>
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.436 s <<< FAILURE! - in cortelliscucumber.RunCucumberTest
+Cortellis login url is correct.Check Cortellis login page URL is the one provided https://access.cortellis.com/login?app=cmc  Time elapsed: 16.317 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The URL provided is not the URL reached through the steps ==> expected: <https://access.cortellis.com/login?app=cmc> but was: <https://access.clarivate.com/login?app=cmc>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
-	at cortelliscucumber.CortellisCMCIntelligenceTests.access_to_cortellis_login_page_and_check_the_url(CortellisCMCIntelligenceTests.java:54)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)
+	at cortelliscucumber.CortellisCMCIntelligenceTests.access_to_cortellis_login_page_and_check_the_url(CortellisCMCIntelligenceTests.java:59)
 	at ✽.Access to Cortellis login page and check the URL(classpath:cortelliscucumber/cortellis_login_url_is_corect.feature:6)
 
